@@ -33,11 +33,12 @@
         echo '<br>';
         echo '<br>';
 
-        echo str_replace($word, '***', $paragraph);
+        $newParagraph = str_replace($word, '***', $paragraph);
+        echo $newParagraph;
 
         echo '<br>';
 
-        echo 'LENGHT:' . strlen($paragraph);
+        echo 'LENGHT:' . strlen($newParagraph);
     ?>
 
 </body>
